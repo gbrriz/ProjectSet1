@@ -1,4 +1,4 @@
-# ProjectSet1
+# ProjectSet1 - In progress(Refactoring + Documenting & Clarifying Code)
 Set of 10 projects related to various Data Science topics:
  - Animated Scatterplot
  - Classification
@@ -11,4 +11,4 @@ Set of 10 projects related to various Data Science topics:
  - Image Classifier
  - Recommender System
 
-Each project has its own README file.
+Each project has its own README file. - In progress
