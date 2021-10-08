@@ -1,0 +1,62 @@
+/* General rule in CSS
+selector {
+    property:value;
+    another_property:value;
+}*/
+
+/* changing the style by using default tags*/
+h1 {
+    color: brown;
+    font-style: oblique;
+}
+
+h1:hover{
+    color:black;
+    ;
+}
+
+/* changing the style by using attributes of a tag
+- <element id="this-is-line">
+*/
+#this-is-line{
+    color: orange;
+}
+
+a {
+    color:rgb(255, 238, 0);
+    font-size: large;
+}
+
+input{
+    max-width: 300px;
+    background-color: ivory;
+}
+
+input:hover{
+    box-shadow:3px 3px 6px lightgray;
+    background-color: purple;
+}
+/* changing the style by using attributes of a tag
+- <element class="container">*/
+.container{
+    text-align: center;
+    margin: auto;
+}
+
+#logo{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    filter: blur();
+
+}
+
+* {
+    background-color: azure;
+}
+
+body, html {
+
+    font-family:'Roboto',serif;
+
+}

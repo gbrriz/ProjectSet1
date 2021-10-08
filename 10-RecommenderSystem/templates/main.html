@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Sumac's Movie Recommender</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+  <link rel="stylesheet" href="../static/style.css"
+
+</head>
+  <body>
+        <div class="container">
+          <h1>{{title}}</h1>
+            <p id="this-is-line">Welcome!<br></p>
+            <a href="https://www.imdb.com">IMDB</a>
+            <br>
+            <body style = 'logo'src="../static/logo.jpg" alt="this is our logo"></body>
+            <form action="/recommendations">
+              <p>Please rate the following movies on a scale from 0.0 to 5.0:</p>
+              {% for m in movie_selection%}
+              <input type="text" name={{movie_selection[0]}} placeholder="0.0 - 5.0"><br>
+              <input type="text" name={{movie_selection[0]}} placeholder="0.0 - 5.0"><br>
+              <input type="text" name={{movie_selection[0]}} placeholder="0.0 - 5.0"><br>
+              <input type="text" name={{movie_selection[0]}} placeholder="0.0 - 5.0"><br>
+              <input type="text" name={{movie_selection[0]}} placeholder="0.0 - 5.0"><br>
+              {% endfor %}
+              <input type="submit">
+            </form>
+        </div> 
+  </body>
+</html>
