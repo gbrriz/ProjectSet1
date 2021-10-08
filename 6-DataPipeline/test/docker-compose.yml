@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  songcollector:
+    build: songcollector/
+    links:
+    - mongodb
+  mongodb:
+    image: mongo
+    ports:
+    - "27017:27017"
